@@ -23,9 +23,20 @@
       document.write("<br>");
 
       document.write("Today's date is " + parent);
+      
+      document.write("<br>");
+      
+      //city & find char
+      var city = "BROOKLYN";
+      copy = city.toLowerCase();
+      document.write("Your new favorite city is " + copy);
 
+      document.write("<br>");
+      document.write("<br>");
 
-
+      var text = ("Neither Apple nor Google have been as aggressive in acquiring smart home products. And when a company like Amazon has dibs on more products in your house, that means rival ones can't be easily used. Once you're all in on Alexa, is there room for a Google Home Hub video speaker, which operates on the Google Assistant? Because you can't use both interchangeably. A perfect example is Sonos One, the connected speaker that currently takes Alexa commands. Later this year, Sonos will update the product to accept Google commands as well – but not at the same time. The user will have to assign one or the other as the personal assistant of their choice. Amazon famously missed out on smartphones by trying to get into the market too late after Apple and Google. It since built a giant device business with e-readers, tablets, connected speakers, security cameras and now, smart home products.");
+      var firstChar = text.indexOf("smart home products");
+      document.write("The word search for smart home products is on line #" + firstChar);
 
     </script>
   </center>
